@@ -14,7 +14,7 @@ import org.openqa.selenium.WebDriver;
 
 public class RegisterStepDefinition {
 
-    @Managed
+    @Managed(driver = "chrome")
     WebDriver hisBrowser;
 
     @Before
@@ -55,7 +55,7 @@ public class RegisterStepDefinition {
     }
 
     @When("^the user clicks on \"([^\"]*)\"\\.$")
-    public void theUserClicksOn(String arg1) {
+    public void theUserClicksOnButton(String arg1) {
 
     }
 

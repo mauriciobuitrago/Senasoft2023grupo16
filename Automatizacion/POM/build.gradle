@@ -46,7 +46,3 @@ dependencies {
 }
 
 test.finalizedBy(aggregate)
-
-test {
-    useJUnitPlatform()
-}

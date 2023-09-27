@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.co.conduit.runners.RegisterRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="CAMDFPCFAFSP008" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+1 Scenarios (?[33m1 undefined?[0m)
+7 Steps (?[33m7 undefined?[0m)
+0m0,566s
+
+
+You can implement missing steps with the snippets below:
+
+
+@Given("^The user is on the page$")
+public void theUserIsOnThePage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^The user enters his e-mail$")
+public void theUserEntersHisEMail() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^The user clicks on \"([^\"]*)\"\\.$")
+public void theUserClicksOn(String arg1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^The user should see the password settings page\\.$")
+public void theUserShouldSeeThePasswordSettingsPage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^the user enters the password and confirms it\\.$")
+public void theUserEntersThePasswordAndConfirmsIt() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^the user clicks on \"([^\"]*)\"\\.$")
+public void theUserClicksOn(String arg1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^the user should see the accommodation view\\.age$")
+public void theUserShouldSeeTheAccommodationViewAge() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Register
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: successful registration
+-------------------------------------------------------------------(register;successful-registration)
+]]></system-err>
+</testsuite>

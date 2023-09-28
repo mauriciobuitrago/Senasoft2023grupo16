@@ -23,7 +23,7 @@ public class LoginStepDefinition {
         OnStage.theActorCalled("User");
         OnStage.theActorInTheSpotlight().can(BrowseTheWeb.with(hisBrowser));
     }
-    @Given("^The user is on the login page\\.$")
+    @Given("^The user is on the loginpage\\.$")
     public void theUserIsOnTheLoginPage() {
         OnStage.theActorInTheSpotlight().wasAbleTo(Open.url("https://account.booking.com/sign-in"));
 

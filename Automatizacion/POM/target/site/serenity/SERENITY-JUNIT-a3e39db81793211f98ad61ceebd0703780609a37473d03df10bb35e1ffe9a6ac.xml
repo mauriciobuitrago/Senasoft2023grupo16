@@ -1,9 +1,16 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Register" skipped="0" tests="1" time="18.25" timestamp="2023-09-27 07:08:03"><testcase name="successful registration"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
-com.co.conduit.tasks.Register.performAs(Register.java:16)&#13;
-com.co.conduit.stepsdefinitions.RegisterStepDefinition.theUserEntersHisEMail(RegisterStepDefinition.java:40)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="Register" skipped="0" tests="2" time="24.21" timestamp="2023-09-28 10:52:14"><testcase name="successful registration"><error message="The following error occurred: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:15137&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'CAMDFPCFAFSP008', ip: '172.18.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_382'&#10;Driver info: driver.version: RemoteWebDriver&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'CAMDFPCFAFSP008', ip: '172.18.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_382'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.WebDriverException">The following error occurred: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:15137
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CAMDFPCFAFSP008', ip: '172.18.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_382'
+Driver info: driver.version: RemoteWebDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CAMDFPCFAFSP008', ip: '172.18.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_382'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:15137
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CAMDFPCFAFSP008', ip: '172.18.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_382'
+Driver info: driver.version: RemoteWebDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CAMDFPCFAFSP008', ip: '172.18.1.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_382'
+Driver info: driver.version: unknown&#13;
+com.co.conduit.stepsdefinitions.RegisterStepDefinition.theUserIsOnThePage(RegisterStepDefinition.java:33)&#13;
 cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
 </system-err></testcase></testsuite>
-=======
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Register" skipped="0" tests="1" time="9.82" timestamp="2023-09-27 12:47:24"><testcase name="successful registration"/></testsuite>
->>>>>>> efcb8f47e2f0d5f980c07c9a111c4e8f02f424b5

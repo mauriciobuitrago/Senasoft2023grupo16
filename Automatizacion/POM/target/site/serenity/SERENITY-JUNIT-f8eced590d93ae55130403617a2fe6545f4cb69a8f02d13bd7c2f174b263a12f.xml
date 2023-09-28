@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="login" skipped="0" tests="1" time="6.54" timestamp="2023-09-27 01:08:13"><testcase name="successful login"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="login" skipped="1" tests="1" time="14.6" timestamp="2023-09-28 10:51:54"><testcase name="successful login"><skipped/></testcase></testsuite>

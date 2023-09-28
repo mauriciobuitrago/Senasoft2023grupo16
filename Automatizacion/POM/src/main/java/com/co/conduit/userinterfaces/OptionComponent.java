@@ -9,6 +9,11 @@ public class OptionComponent {
 
 
     public static final Target BTN_REGISTER = Target.the("clic en el elemento register")
-            .locatedBy("//*[contains(@href,'https://account.booking.com/auth/oauth2?client_id=v') and @aria-label = 'Create an account']");
+            .locatedBy("//*[contains(@href,'https://account.booking.com/auth/oauth2?client_id=v') and @data-testid = 'header-sign-up-button']");
+
+    public static final Target BTN_CONTINUITIES = Target.the("clic boton continue with email")
+            .locatedBy("//button[@type='submit']");
+
+
 
 }

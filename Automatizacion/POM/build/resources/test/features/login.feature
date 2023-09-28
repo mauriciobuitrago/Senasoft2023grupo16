@@ -1,15 +1,17 @@
-Feature: login
-  i as a service user, I need to log in to the website
+Feature: Login
+  i as services user, i need login in the web page
 
-  Scenario: successful login
-    Given The user is on the loginpage.
-    When The user enters his e-mail
-    And The user clicks on "continue with E-mail"
-    Then the user should see the "Ingrese su contraseña" page.
-    Given The user is on the "Ingrese su contraseña" page.
-    When The user enters his password
-    And The user clicks on "iniciar sesion"
-    Then The user should be logged in
+  Scenario Outline: successful login
+    Given The user is on the page view
+    When The user enter the data for the login
+      | email   | password   |
+      | <email> | <password> |
 
+    Then the user should see the accommodation view page
+
+    Examples:
+      | email                          | password     |
+      | acadenacuellar22@gmail.com     | Cadena123456 |
+      | domingomartes213215@gmail.com  | Juan123456   |
 
 

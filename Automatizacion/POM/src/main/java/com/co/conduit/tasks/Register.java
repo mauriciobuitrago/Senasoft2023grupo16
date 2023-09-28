@@ -19,9 +19,9 @@ RegisterData registerData;
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Click.on(OptionComponent.BTN_REGISTER),
-                Enter.theValue(registerData.getEmail()).into(RegisterPage.TXT_ENTERYOUREMAILADDRESS),
+                Enter.theValue(registerData.getEmail()).into(OptionComponent.TXT_ENTERYOUREMAILADDRESS),
                 Click.on(OptionComponent.BTN_CONTINUITIES),
-                Enter.theValue(registerData.getPassword()).into(RegisterPage.TXT_ENTERPASSWORD),
+                Enter.theValue(registerData.getPassword()).into(OptionComponent.TXT_ENTERPASSWORD),
                 Enter.theValue(registerData.getPassword()).into(RegisterPage.TXT_ENTERPASSWORDCOMFIRM   ),
                 Click.on(OptionComponent.BTN_CONTINUITIES));
 

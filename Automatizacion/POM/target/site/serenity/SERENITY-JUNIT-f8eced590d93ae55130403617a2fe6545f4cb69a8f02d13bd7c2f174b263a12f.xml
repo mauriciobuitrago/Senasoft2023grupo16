@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="login" skipped="1" tests="1" time="14.6" timestamp="2023-09-28 10:51:54"><testcase name="successful login"><skipped/></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="Login" skipped="0" tests="2" time="75.36" timestamp="2023-09-28 11:53:33"><testcase name="successful login"><error message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</error><system-err>Expected enabled element was not enabled&#13;
+com.co.conduit.tasks.Login.performAs(Login.java:20)&#13;
+com.co.conduit.stepsdefinitions.LoginStepDefinition.theUserEnterTheDataForTheLogin(LoginStepDefinition.java:43)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

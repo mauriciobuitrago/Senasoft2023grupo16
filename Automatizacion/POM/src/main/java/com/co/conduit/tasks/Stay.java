@@ -12,7 +12,7 @@ public class Stay implements Task {
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(Click.on(OptionComponent.BTN_REGISTER));
-        actor.attemptsTo(Enter.theValue("Morrisito.cerquita@gmail.com").into(RegisterPage.TXT_ENTERYOUREMAILADDRESS));
+        actor.attemptsTo(Enter.theValue("Morrisito.cerquita@gmail.com").into(OptionComponent.TXT_ENTERYOUREMAILADDRESS));
         actor.attemptsTo(Click.on(OptionComponent.BTN_REGISTER));
 
     }

@@ -11,7 +11,7 @@ Feature: Login
 
     Examples:
       | email                          | password     |
-      | acadenacuellar22@gmail.com     | Cadena123456 |
-      | domingomartes213215@gmail.com  | Juan123456   |
+      | domingolunes314@gmail.com     | Juan123456 |
+
 
 

@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-09-2023 12:41</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-09-2023 19:08</span>
     <br style="clear:left"/>
 </div>
 
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">successful registration
+                                <span class="failing-color">successful registration
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -208,17 +208,62 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.co.conduit.tasks.Register.performAs(Register.java:16)<br />com.co.conduit.stepsdefinitions.RegisterStepDefinition.theUserEntersHisEMail(RegisterStepDefinition.java:40)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.xpath: //*[contains(@href,'https://account.booking.com/auth/oauth2?client_id=v') and @aria-label = 'Create an account'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>com.co.conduit.tasks.Register.performAs(Register.java :16)<br />com.co.conduit.stepsdefinitions.RegisterStepDefinition.theUserEntersHisEMail(RegisterStepDefinition.java :40)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource3342725268222253169.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="147815bf454ba00ef497294615bede8569be014c5a69d3cfd33f7c8d8193a22b.png" title=" Given The user is on the page" width="1034"/>
-                <img src="147815bf454ba00ef497294615bede8569be014c5a69d3cfd33f7c8d8193a22b.png" title=" User opens the https://www.booking.com/index.es.html?label=gen173nr-1BCAEoggI46AdIM1gEaDKIAQGYAQq4ARfIAQzYAQHoAQGIAgGoAgO4AvPH0agGwAIB0gIkYTA5YTA4ZTItMDgxNi00ODhlLWEwMWQtZDJkMzkyMDgxY2Vi2AIF4AIB&amp;sid=64a29f8d27548abc1d3fcd600c279917&amp;keep_landing=1&amp;sb_price_type=total&amp;" width="1034"/>
+                <img src="cec0f424b1cfac93a9b19a866db0724919b80dda1cc280e881f6190f20e911c1.png" title=" Given The user is on the page" width="1034"/>
+                <img src="cec0f424b1cfac93a9b19a866db0724919b80dda1cc280e881f6190f20e911c1.png" title=" User opens the https://www.booking.com/index.es.html?label=gen173nr-1BCAEoggI46AdIM1gEaDKIAQGYAQq4ARfIAQzYAQHoAQGIAgGoAgO4AvPH0agGwAIB0gIkYTA5YTA4ZTItMDgxNi00ODhlLWEwMWQtZDJkMzkyMDgxY2Vi2AIF4AIB&amp;sid=64a29f8d27548abc1d3fcd600c279917&amp;keep_landing=1&amp;sb_price_type=total&amp;" width="1034"/>
                 <img src="cec0f424b1cfac93a9b19a866db0724919b80dda1cc280e881f6190f20e911c1.png" title=" Given The user is on the page (completed)" width="1034"/>
                 <img src="cec0f424b1cfac93a9b19a866db0724919b80dda1cc280e881f6190f20e911c1.png" title=" When The user enters his e-mail" width="1034"/>
-                <img src="cec0f424b1cfac93a9b19a866db0724919b80dda1cc280e881f6190f20e911c1.png" title=" And The user clicks on &quot;continue with E-mail&quot;." width="1034"/>
-                <img src="cec0f424b1cfac93a9b19a866db0724919b80dda1cc280e881f6190f20e911c1.png" title=" Then The user should see the password settings page." width="1034"/>
-                <img src="cec0f424b1cfac93a9b19a866db0724919b80dda1cc280e881f6190f20e911c1.png" title=" When the user enters the password and confirms it." width="1034"/>
-                <img src="cec0f424b1cfac93a9b19a866db0724919b80dda1cc280e881f6190f20e911c1.png" title=" And the user clicks on &quot;create an account&quot;." width="1034"/>
-                <img src="cec0f424b1cfac93a9b19a866db0724919b80dda1cc280e881f6190f20e911c1.png" title=" Then the user should see the accommodation view.age: <span class='success-color'>SUCCESS</span>" width="1034"/>
+                <img src="cec0f424b1cfac93a9b19a866db0724919b80dda1cc280e881f6190f20e911c1.png" title=" User register" width="1034"/>
+                <img src="52fc2d09b55e6b8a2dc081aca2eaf4738120e2e1bac327f857b00b0d64136f62.png" title=" User clicks on clic en el elemento ignore" width="1034"/>
+                <img src="52fc2d09b55e6b8a2dc081aca2eaf4738120e2e1bac327f857b00b0d64136f62.png" title=" User clicks on clic en el elemento register" width="1034"/>
+                <img src="147815bf454ba00ef497294615bede8569be014c5a69d3cfd33f7c8d8193a22b.png" title=" User clicks on clic en el elemento register (completed): <span class='failing-color'>FAILURE</span>" width="1034"/>
             </div>
         </div>
 

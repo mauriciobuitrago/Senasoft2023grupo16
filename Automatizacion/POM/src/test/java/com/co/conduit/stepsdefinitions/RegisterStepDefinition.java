@@ -1,5 +1,6 @@
 package com.co.conduit.stepsdefinitions;
 
+import com.co.conduit.tasks.Register;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -36,6 +37,7 @@ public class RegisterStepDefinition {
 
     @When("^The user enters his e-mail$")
     public void theUserEntersHisEMail() {
+        OnStage.theActorInTheSpotlight().attemptsTo(Register.enter());
 
     }
 

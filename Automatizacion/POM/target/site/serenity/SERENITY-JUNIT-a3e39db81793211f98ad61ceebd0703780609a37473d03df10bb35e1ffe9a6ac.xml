@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Register" skipped="0" tests="1" time="7.79" timestamp="2023-09-27 12:41:53"><testcase name="successful registration"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Register" skipped="0" tests="1" time="18.25" timestamp="2023-09-27 07:08:03"><testcase name="successful registration"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+com.co.conduit.tasks.Register.performAs(Register.java:16)&#13;
+com.co.conduit.stepsdefinitions.RegisterStepDefinition.theUserEntersHisEMail(RegisterStepDefinition.java:40)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
